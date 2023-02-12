@@ -1,0 +1,45 @@
+.buttons {
+    display:flex;
+    flex-direction: column;
+}
+
+/* button {
+    display: block;
+} */
+
+button {
+    margin: 7px;
+    margin-left: 30px;
+}
+
+#b1{
+    margin-top: 50px;
+    height: 2rem;
+    width: 125px;
+    font-size: 15px;
+    font-style: bold;
+    color: rgb(14, 190, 158);
+    /* background-color: rgb(211, 228, 222); */
+    border: 2px solid rgb(11, 232, 217); /*requires 3 properties to work*/
+    border-radius: 25px;
+}
+
+#b2{
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    border: 0px;
+    border-radius: 150px;
+    text-align: center;
+    color: white;
+    background-color: rgb(11, 232, 217);
+}
+
+#b3{
+    width: 150px;
+    height: 35px;
+    border: 2px solid black;
+    background-color: rgb(16, 69, 228);
+    color: white;
+    box-shadow: 3px 3px black;
+}

@@ -1,0 +1,31 @@
+.white {color: white;
+
+}
+
+h1 {
+    font-family: sans-serif;
+    color: cyan;
+    background-color: black;
+    text-align: left;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+h2 {
+    padding-top: 10px;
+    height: 35px;
+    background-color: purple;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-right: 15px;
+    height: 35px;
+    background-color: lightblue;
+    text-decoration: underline;
+    text-align: right;
+}

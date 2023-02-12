@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div>
+        <label for="">First Name:* </label>
+        <input type="text">
+    </div>
+    <div>
+    <!--    <form action="/action_page.php">
+            Username: <input type="text" name="usrname" required>
+        </form>
+
+        was exploring html required asterisk to see if could be done in HTML. This was example found on w3school
+    -->
+    </div>
+    <div>
+        <label for="">Last Name:* </label>
+        <input type="text" required>
+    </div>
+    <div>
+        <label for="">Email Address:*</label>
+        <input type="text" required>
+    </div>
+    <div>
+        <label for="">Password:* </label>
+        <input type="password">
+    </div>
+    <div>
+        <label for="">Confirm Password:* </label>
+        <input type="password">
+    </div>
+    <div>
+        <label for="">Birthday:* </label>
+        <input type="date">
+    </div>
+    <Label>Gender Identity:</Label>
+    <div>
+        <input type="radio" name="choice" id="Male">
+        <label>Male</label>
+        <input type="radio" name="choice" id="Female">
+        <label>Female</label>
+        <input type="radio" name="choice" id="Non-binary">
+        <label>Non-binary</label>
+        <input type="radio" name="choice" id="I prefer not to say">
+        <label>I prefer not to say</label>
+        <!--male, female, non-binary, i prefer not to answer-->
+    </div>
+    <div>
+        <label for="box">A short description about myself:</label> <!-- I wanted to put a <br> tag here but heard it's not best
+        practice. Will look into ways of doing this, most likely css-->
+        <textarea name="description" id="box" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <label for="language">Favorite Language:</label>
+        <select name="" id="langauge">
+            <option value="JavaScript">JavaScript</option>
+            <option value="CSS">CSS</option>
+            <option value="Python">Python</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="" id="">
+        <label for="">Yes, I would like to receive periodic email updates</label>
+    </div>
+        <input type="submit" name="Create Account" id="Account" value="Create Account">
+        <p>* Indicates a required field</p>
+        
+
+    </body>
+</html>

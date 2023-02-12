@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Activity</title>
+    <!-- link tag will pull in css file -->
+    <style>
+        img{width: 15%}
+    </style> <!-- this is best practice instead of adjusting width and height in the img tag -->
+</head>
+<body>
+    <h1>Welcome to Pet Shelter</h1>
+    <img src="/HTML/w1/d2/officehoursproject/ImagesPets/Pippin.jpeg" alt="Picture of a Cat">
+    <h3>
+        Add your pet here!
+    </h3>
+    <form>
+        <div> 
+            <label>Pet Name</label>
+            <input type="text">
+        </div>
+        <div>
+            <label>Pet Type</label>
+            <select>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Dragon">Dragon</option>
+                <option value="Fish">Fish</option>
+                <!-- type  in the tag "option" an asterisk * and then a value "4"-->
+            </select>
+        </div>
+        <div>
+            <label for="">Friendly?</label>
+            <input type="radio" name="choice" id=""> <!-- shift alt down to duplicate a line, highlight to duplicate more than one line-->
+            <label for="yes">yes</label>
+            <input type="radio" name="choice" id=""> <!-- choice in name recognizes each other and causes users to only choose one option -->
+            <label for="no">no</label>
+        </div>
+        <div>
+            <label for="Birthday">Birthday:</label>
+            <input type="date" name="Birthday">
+        </div>
+    </form>
+    <h3>New pets up for adoption</h3>
+    <table>
+        <thead>
+            <tr>
+                <thead>Name</thead>
+                <thead>Type</thead>
+                <thead>Friendly</thead>
+                <thead>Birthday</thead>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Toby</td>
+                <td>Dog</td>
+                <td>Yes</td>
+                <td>09/19/2019</td>
+            </tr>
+            <tr>
+                <td>Toby</td>
+                <td>Dog</td>
+                <td>Yes</td>
+                <td>09/19/2019</td>
+            </tr>
+            <tr>
+                <td>Toby</td>
+                <td>Dog</td>
+                <td>Yes</td>
+                <td>09/19/2019</td>
+            </tr>
+            <tr>
+                <td>Toby</td>
+                <td>Dog</td>
+                <td>Yes</td>
+                <td>09/19/2019</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

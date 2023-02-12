@@ -1,0 +1,27 @@
+#container {
+    
+    width: 960px;
+    /*overflow: hidden;
+    height: auto;*/
+}
+
+#box1, #box2, #box3 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 0 20px;
+    padding: 20px;
+}
+#box1 {
+    box-shadow: 10px 15px black;
+}
+#block {
+    background-color: grey;
+    padding: 20px;
+    box-shadow:  20px 30px blanchedalmond;
+    
+}
+.clear {
+    clear: both;
+}

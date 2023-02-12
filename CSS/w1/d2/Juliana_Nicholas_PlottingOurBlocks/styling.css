@@ -1,0 +1,75 @@
+.container{
+    padding: 20px;
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    /* overflow: auto; */
+}
+.top-nav {
+    /* margin: 20px; */
+    height: 150px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+.side-nav {
+    /* margin-left: 20px; */
+    margin-top: 10px;
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+}
+.main {
+    padding-left: 15px;
+    margin-left: 50px;
+    margin-top: 10px;
+    /* margin-right: 20px;
+    margin-bottom: 20px; */
+    display: inline-block;
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    display: inline-block;
+}
+.sub-content {
+    margin-top: 15px;
+    margin-left: 0px;
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+}
+#advertisement {
+    margin-top: 25px;
+    margin-left: 0px;
+    /* display: inline-block; */
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    vertical-align: bottom;
+}
+/* .side-nave,.main {
+    display: inline-block;
+} */
+/* .container .side-nav,.main {
+    display: inline-block;
+} */
+.sidemain {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: 
+    flex-start;
+}
+/*just learned about flex. This reduced a lot of 
+headache with the margins I was using to put side-nav into place. 
+However in playing with inline-block more and understanding it a little better
+I noticed that it lined up everything really well. Flex left things a little smaller.*/
+
+/* .sub-content #sc2,#sc3 {
+    margin-left: 2px;
+} lets try making these to their own div, only sc3 was changing
+never mind that messed it up a little more than desired.*/
+#sc2,#sc3 {
+    margin-left: 8px;
+}

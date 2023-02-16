@@ -1,0 +1,70 @@
+.container {
+    width: 600px;
+    height: 330px;
+    /* background: conic-gradient(from 45deg, blue, red); */
+    background: linear-gradient(to top, white 65%, red 35%);
+    border: solid lightgrey;
+    /* display: flexbox; */
+}
+.header {
+    width: 600px;
+    height: 120px;
+    background-color: cyan;
+    /* border: solid 1px cyan; */
+} 
+/* top right and left border no bottom
+/* .container:after {
+    width: 600px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: block;
+    content: '';
+    border: 5px solid white;
+} */
+#user-circle {
+    width: 5rem;
+    height: 5rem;
+    /* margin-left: 40px;
+    margin-top: 60px; */
+    position: fixed;
+    top: 10%;
+    left: 3%;
+    border: solid 3px white;
+    border-radius: 50%;
+}
+.name {
+    font-size: xx-large;
+    position: fixed;
+    top: 16%;
+    left: 3%;
+}
+
+#mapmarker {
+    width: 1rem;
+    height: 1.5rem;
+    position: fixed;
+    top: 26%;
+    left: 3%;
+}
+.location {
+    position: fixed;
+    top: 25%;
+    left: 5%;
+}
+.paragraph {
+    position: fixed;
+    top: 30%;
+    left: 3%;
+}
+#gear {
+    width: 1.3rem;
+    height: 1.3rem;
+    position: fixed;
+    left: 3%;
+}
+#website {
+    position: fixed;
+    top: 42.5%;
+    left: 5.5%;
+}

@@ -2,33 +2,37 @@
     margin: 0px;
     padding: 0px;
 }
+
 .container {
     display: flex;
     justify-content: center;
     margin: 0px auto;
 }
+
 .banner {
     height: 60px;
-    width: 100%;
     display: flex;
-    /* justify-content: space-around; */
+    flex-direction: row;
     align-items: center;
     background-color: black;
     color: white;
-    padding: 0 6rem 0 6rem;
+    padding: 0 1rem;
 }
+
 #profile {
     color: white;
     margin-right: 30px;
     font-size: x-large;
 }
-.banbox1{
+
+.banbox1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 30%;
     font-size: large;
 }
+
 /* cannot get signout to right side */
 #signout {
     color: white;
@@ -37,86 +41,106 @@
     align-self: center;
     width: 6rem;
     height: 2rem;
+    margin-left: auto;
 }
 
-
-
-.profilepage {
+.profilePage {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
-.leftsidepage {
+
+.leftSidePage {
     margin: 20px;
 }
 
-.profilecard {
+.profileCard {
+    display: flex;
+    flex-direction: column;
     height: 300px;
     width: 300px;
     border: solid 5px black;
     width: 525px;
     height: 300px;
     border: solid lightgrey;
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 1rem;
 }
+
 .header {
     width: 100%;
     height: 30px;
     background-color: cyan;
 } 
+
 .detail {
     padding: 0px 0px 0px 0px;
-    /* margin: 20px;
-    margin-top: 40px; */
-    position: absolute;
+    margin: 20px;
+    margin-top: 40px;
+    /* position: absolute; */
     top: 3rem;
     left: 3rem;
 }
+
 #user-circle {
     width: 5rem;
     height: 5rem;
 }
+
 .name {
     font-size: x-large;
     font-family: cursive;
 }
+
 #mapmarker {
     width: .75rem;
     height: 1.25rem;
 }
+
 .location {
+
 }
+
 .paragraph {
-    line-height: 0.5rem;
+    /* line-height: 0.5rem; */
     font-size: 16px;
 }
+
 #gear {
     width: 1.3rem;
     height: 1.3rem;
 }
+
 #website {
+
 }
 
-
-
-.educationbox {
-height: 300px;
-width: 300px;
-border: solid 5px black;
+.educationBox {
+    height: 300px;
+    width: 300px;
+    border: solid 5px black;
 }
+
 #header2 {
     height: 30px;
     width: 100%;
     background-color: black;
-    color: black;
+    color: black; /* Why is this black font on black background? */
 }
+
+/* There needs to be class styles for rightSidePage */
+.rightSidePage {
+    margin: 1rem;
+}
+
 .requests {
-height: 300px;
-width: 300px;
-border: solid 5px black;
+    height: 300px; 
+    width: 300px; /* Move width to parent if all children are the same */
+    border: solid 5px black;
+    margin-bottom: 1rem;
 }
+
 .connections {
-height: 300px;
-width: 300px;
-border: solid 5px black;
+    height: 300px;
+    width: 300px;
+    border: solid 5px black;
 }

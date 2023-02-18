@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styling2.css">
+    <link rel="stylesheet" href="./styling3.css">
 
 </head>
 <body>
@@ -22,31 +23,54 @@
         <div class="profilepage">
             <div class="leftsidepage">
                 <div class="profilecard">                 
-                    <div class="header"></div>
-                        <div class="detail">
-                            <img src="" alt="user-circle" id="user-circle">
-                            <div class="name">Nicholas Juliana</div>
-                            <div class="location"><img src="./images/map-marker.png" alt="location arrow" id="mapmarker">  Carlisle</div>
-                            <div class="paragraph">
-                                <p>Developer | Engineer | Problem Solver</p>
-                                <p>Master of shadows and the Internet!</p>
+                    <div class="detail">
+                        <div class="header"></div>
+                        <div class="detail2">
+                                <img src="./images/user-circle.png" alt="user-circle" id="user-circle">
+                                <h2 class="name">Nicholas Juliana</h2>
+                                <div class="location"><img src="./images/map-marker.png" alt="location arrow" id="mapmarker">  Carlisle</div>
+                                <ul class="paragraph">
+                                    <li>Developer | Engineer | Problem Solver</li>
+                                    <li>Master of shadows and the Internet!</li>
+                                </ul>
+                                <img id="gear" src="./images/gear.png" alt="gear">
+                                <a href="" id="website">edit profile</a>
                             </div>
-                            <img id="gear" src="./images/gear.png" alt="gear">
-                            <a href="" id="website">edit profile</a>
                         </div>
                 </div>
                 <div class="educationbox">
                     <div id="header2">Education</div>
-                    <span>Coding Dojo - Full Stack Bootcamp</span>
-                    <span>Dec 2019 - Mar 2020</span>
-                    <span>Triple black belt in Python, MERN, and C#...</span>
+                    <div class="edcontent">
+                        <h3 class="text">Coding Dojo - Full Stack Bootcamp</h3>
+                        <ul>    
+                            <li class="text" id="dates">Dec 2019 - Mar 2020</li>
+                            <li class="text">Triple black belt in Python, MERN, and C#...</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="rightsidepage">
-                <div class="requests"></div>
-                <div class="connections"></div>
+                <div class="requests">
+                    <h2 id="header3"></h2>
+                    <span class="conreq">2</span>
+                    <span class="conreq">Connection Requests</span>
+                </div>
+                <div class="connections">
+                    <h2 class="conheader">
+                        <span>500+</span>
+                        <span>Your Connections</span>
+                    </h2>
+                    <div class="connectionbody">
+                        <ul>
+                            <li><img id="usercircle" src="./images/user-circle.png" alt="user-circle">  Adrien D</li>
+                            <li><img id="usercircle" src="./images/user-circle.png" alt="user-circle">  Anne J</li>
+                            <li><img id="usercircle" src="./images/user-circle.png" alt="user-circle">  Alayne T</li>
+                            <li><img id="usercircle" src="./images/user-circle.png" alt="user-circle">  Arry Y</li>
+                        </ul>
+                    </div>
+                    <h2 class="bottomheader">View More</h2>
+                </div>
             </div>
-        </div>
     </div>
 </body>
 </html>

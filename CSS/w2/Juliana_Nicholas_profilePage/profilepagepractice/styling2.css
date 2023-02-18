@@ -11,7 +11,7 @@
     height: 60px;
     width: 100%;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     align-items: center;
     background-color: black;
     color: white;
@@ -21,64 +21,72 @@
     color: white;
     margin-right: 30px;
     font-size: x-large;
+    border: 5px solid red;
 }
 .banbox1{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 30%;
     font-size: large;
+    border: 5px solid red;
 }
 /* cannot get signout to right side */
 #signout {
     color: white;
     background-color: aquamarine;
-    justify-content: end;
+    justify-content: right;
     align-self: center;
     width: 6rem;
     height: 2rem;
+    border: 5px solid red;
 }
 
-
+/*start profile page content*/
 
 .profilepage {
+    margin: 0px auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 .leftsidepage {
     margin: 20px;
 }
 
+/*profile card section*/
+
 .profilecard {
-    height: 300px;
-    width: 300px;
-    border: solid 5px black;
-    width: 525px;
-    height: 300px;
-    border: solid lightgrey;
     display: flex;
     flex-direction: column;
+    height: 350px;
 }
 .header {
     width: 100%;
-    height: 30px;
-    background-color: cyan;
+    border-top: 100px solid cyan;
 } 
 .detail {
-    padding: 0px 0px 0px 0px;
-    /* margin: 20px;
-    margin-top: 40px; */
-    position: absolute;
-    top: 3rem;
-    left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.detail2 {
+    padding: 20px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid lightgrey;
+    border-right: 3px solid lightgrey;
+    border-left: 3px solid lightgrey;
 }
 #user-circle {
     width: 5rem;
-    height: 5rem;
+    position: absolute;
+    top: 120px;
+    border: solid 5px lightgrey;
+    border-radius: 50%;
 }
 .name {
     font-size: x-large;
     font-family: cursive;
+    margin-top: 15px;
 }
 #mapmarker {
     width: .75rem;
@@ -97,26 +105,34 @@
 #website {
 }
 
-
+/*education box*/
 
 .educationbox {
-height: 300px;
-width: 300px;
-border: solid 5px black;
+    margin-top: 20px;
+    height: 200px;
+    width: 525px;
+    display: flex;
+    flex-direction: column;
 }
 #header2 {
     height: 30px;
-    width: 100%;
+    width: 500xp;
+    padding-left: 20px;
+    padding-bottom: 5px;
     background-color: black;
-    color: black;
+    color: white;
+    font-size: 25px;
+    align-items: center;
 }
-.requests {
-height: 300px;
-width: 300px;
-border: solid 5px black;
+ul {
+    list-style-type: none;
 }
-.connections {
-height: 300px;
-width: 300px;
-border: solid 5px black;
+#dates {
+    color: grey;
+}
+.edcontent {
+    padding-top: 10px;
+    padding-left: 10px;
+    border-right: solid 5px lightgrey;
+    border-left: solid 5px lightgrey;
 }

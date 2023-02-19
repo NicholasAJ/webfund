@@ -1,0 +1,110 @@
+.rightsidepage {
+    margin: 20px;
+    width: 300px;
+}
+.requests {
+    height: fit-content;
+    /* width: 200px; */
+}
+#header3 {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.conreq {
+    top: 10px;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+#numbertwo {
+    background-color: lightgrey;
+    color: black;
+    border: solid 1px lightgrey;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    font-weight: 200;
+}
+.reqbody {
+    display: flex;
+    padding: 10px;
+    border-right: 3px solid lightgrey;
+    border-bottom: 3px solid lightgrey;
+    border-left: 3px solid lightgrey;
+}
+.reqname, p{
+    margin-right: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.acceptCloseCircle {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.acceptCloseCircle, button {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    object-fit: contain;
+}
+.acceptCloseCircle, img{
+    width: 2.5rem;
+}
+.reqbody .acceptCloseCircle{
+    display: flex;
+    flex-direction: column;
+}
+.connections {
+height: 250px;
+margin-top: 30px;
+}
+.conheader{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-size: 20px;
+}
+#fiveplus{
+    background-color: grey;
+    color: black;
+    border: solid 5px grey;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.connectionbody{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    font-size: 20px;
+    border-left: 3px solid lightgrey;
+    border-right: 3px solid lightgrey;
+    padding: 20px 0px 0px 20px;
+}
+.connectionlist{
+    text-align: center;
+}
+.connectionlist, li {
+    margin-bottom: 5px;
+}
+#usercircle {
+    width: 2.5rem;
+    vertical-align: middle;
+}
+.bottomheader {
+    border: 3px solid lightgrey;
+}
+.bottomheader, a {
+    color: blue;
+    text-decoration: underline;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+}

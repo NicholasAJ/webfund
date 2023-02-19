@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="./styling.css">
+</head>
+<body>
+    <div class="topnav">
+        <h1>Dojonary</h1>
+        <form>
+            <input type="text" id="search" placeholder="Search">
+        </form>
+        <button id="login" onclick="switchtologoff(this)">Login</button>
+    </div>
+    <div class="bodytwo">
+        <div class="definitions">
+            <div class="ninjaword">
+                <div class="ninjacolumn">
+                    <ul class="deflist">
+                        <li><h2>ninja</h2></li>
+                        <li><h3>noun</h3></li>
+                        <li><h4>Plural: <span style="font-style:italic">ninjas</span></h4></li>
+                    </ul>
+                    <button class="likebutton" onclick="alert('Ninja was liked')">Like</button>
+                </div>
+                <div class="ninjadefinition">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a>  art of <a href="#">ninjutsu</a> </p>
+                </div>
+                <!-- Japanese and ninjutsu links, blue, underline -->
+            </div>
+            <div class="ninjaword">
+                <div class="ninjacolumn">
+                    <ul class="deflist">
+                        <li><h2>ninja</h2></li>
+                        <li><h3>noun</h3></li>
+                        <li>
+                            <h4>Plural: 
+                                <span style="font-style:italic">ninjas</span>
+                            </h4>
+                        </li>
+                    </ul>
+                    <button class="likebutton" onclick="alert('Ninja was liked')">Like</button>
+                </div>
+                <div class="ninjadefinition">
+                    <p>A <a href="#">programmer</a>  who breaks down problems with <a href="#">zen</a> -like focus</p>
+                </div>
+                <!-- programmer and zen links, blue, underline -->
+            </div>
+        </div>
+        <div class="dojonary">
+            <p id="dojonarytext">Dojonary is defined by <span style="font-weight:900">You</span></p>
+            <button id="addef" onclick="removeButton(this)">Add Defintion</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

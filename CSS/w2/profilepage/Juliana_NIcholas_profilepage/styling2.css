@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.banner {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    padding: 0 200px;
+}
+
+#profile {
+    color: white;
+    margin-right: 50px;
+    font-size: x-large;
+}
+
+.banbox1{
+    font-size: 20px;
+    width: 400px;
+    color: white;
+}
+
+.banbox1 a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#signout {
+    color: white;
+    background-color: cyan;
+    align-self: center;
+    width: 7rem;
+    height: 2rem;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.profilepage {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.leftsidepage {
+    margin: 20px;
+}
+
+.profilecard {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+
+.header {
+    width: 100%;
+    border-top: 100px solid cyan;
+} 
+
+.detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail2 {
+    padding: 20px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid lightgrey;
+    border-right: 3px solid lightgrey;
+    border-left: 3px solid lightgrey;
+}
+
+#user-circle {
+    width: 5rem;
+    position: absolute;
+    top: 120px;
+    border: solid 5px lightgrey;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: x-large;
+    font-family: cursive;
+    margin-top: 15px;
+}
+
+#mapmarker {
+    width: .75rem;
+    height: 1.25rem;
+}
+
+.paragraph {
+    font-size: 16px;
+}
+
+#gear {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.detail2, a {
+    vertical-align: middle;
+}
+
+#website {
+}
+
+.educationbox {
+    margin-top: 60px;
+    height: 200px;
+    width: 525px;
+    display: flex;
+    flex-direction: column;
+}
+
+#header2 {
+    height: 30px;
+    width: 500xp;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+}
+
+.edcontent, #edheader {
+    padding-left: 10px;
+}
+
+.text {
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#dates {
+    color: grey;
+}
+
+.edcontent {
+    padding-top: 10px;
+    padding-left: 10px;
+    border-right: solid 5px lightgrey;
+    border-left: solid 5px lightgrey;
+}

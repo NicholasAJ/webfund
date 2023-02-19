@@ -1,16 +1,7 @@
-var count = 0;
-var countElement = document.querySelector("#count");
-
-console.log(count)
-function add1() {
-    count++;
-    countElement.innerText = "The count is " + count;
-    console.log(count);
+function over(element) {
+    element.style.backgroundColor = "lime";
 }
 
-console.log(count)
-function subtract1() {
-    count--;
-    countElement.innerText = "The count is " + count;
-    console.log(count);
+function out(element) {
+    element.style.backgroundColor = "silver";
 }

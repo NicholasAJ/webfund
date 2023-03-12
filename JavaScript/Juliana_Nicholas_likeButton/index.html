@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styling.css">
+</head>
+<body>
+  <div class="navfeed">
+    <div class="navbar">
+      <p>Network</p>
+    </div>
+      <div class="yourFeed">
+        <span>Your Feed</span>
+      </div>
+  </div>
+    <div class="pageBody">
+      <div class="profileBox">
+        <img src="./images/user-circle.png" alt="user-circle" id="profilePicture">
+        <a href="#">Add an avatar</a>
+        <p>James Doe</p>
+      </div>
+      <div class="likeBoxes">
+        <div class="likeBox">
+          <div class="lbone">
+            <div class="likeHeaders">
+              <h2 id="likeHeader">Neil M</h2>
+            </div>
+            <div class="likes">
+              <p id="likeCounter">like(s)</p>
+              <button id="likeButton" onclick="addLike(this)">Like</button>
+            </div>
+          </div>
+          <div class="lbtwo">
+            <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+          </div>
+        </div>
+        <div class="likeBox">
+          <div class="lbone">
+            <h2 id="likeHeader2">Nichole K</h2>
+            <div class="likes">
+              <p id="likeCounter2">like(s)</p>
+              <button id="likeButton2" onclick="addLike2(this)">Like</button>
+            </div>
+          </div>
+          <div class="lbtwo">
+            <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+          </div>
+        </div>
+        <div class="likeBox">
+          <div class="lbone">
+            <h2 id="likeHeader3">Jim R</h2>
+            <div class="likes">
+              <p id="likeCounter3">like(s)</p>
+              <button id="likeButton3" onclick="addLike3(this)">Like</button>
+            </div>
+          </div>
+          <div class="lbtwo">
+            <p>I can't stop listenng to the <a href="#">new album</a>. Who else is liking it?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+  </html>

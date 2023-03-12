@@ -1,6 +1,4 @@
-.block {
-    height: 50px;
-    width: 20px;
-    background-color: silver;
-    border: 1px dotted black;
+div {
+    background-color: black;
+    color: white;
 }

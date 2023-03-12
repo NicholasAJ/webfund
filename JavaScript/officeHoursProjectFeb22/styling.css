@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+}
+.journalPage {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+input {
+  padding: 1%;
+}
+textarea, input {
+  border: 3px solid black;
+}

@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px auto;
+}
+.navBar {
+  height: 200px;
+  background-color: rgb(16,155,157);
+  border-bottom: 5px solid black;
+}
+.topNav {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+.topNavLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  gap: 20px;
+  /* margin-right: 150px; */
+}
+.topNavLeft h1 {
+  font-weight: 100;
+}
+.topNavRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+.topNavRight, a {
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+  margin-left: 10px;
+}
+#donate {
+  height: 50px;
+  width: 120px;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: white;
+  color: rgb(114,57,164);
+  border: 2px solid rgb(114,57,164);
+  border-radius: 150px;
+  box-shadow: black 3px 3px;
+  align-self: center;
+  margin-left: 20px;
+}
+.bottomNav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* gap: 100px; */
+}
+#selAni {
+  width: 150px;
+}
+.formLooking label {
+  color: white;
+}
+select, input{
+  border: 2px solid black;
+}
+.pawPrintAlign {
+  display: flex;
+  flex-direction: row;
+}
+#pawPrint {
+  width: 30px;
+}
+.locationAlign {
+  display: flex;
+  flex-direction: row;
+}
+.formLocation label {
+  color: white;
+}
+#pin {
+  width: 30px;
+}
+#find {
+  margin-top: 15px;
+  height: 30px;
+  width: 180px;
+  background-color: rgb(153,34,255);
+  border: 2px solid black;
+  color: white;
+}
+.pageBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.pepper {
+  background-color: rgb(238,238,238);
+  border-radius: 50px;
+  width: 700px;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.pepper img {
+  width: 125px;
+}
+#petButtonP {
+  width: 100px;
+  height: 30px;
+}
+.bruce {
+  background-color: rgb(238,238,238);
+  border-radius: 50px;
+  width: 700px;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.bruce img {
+  width: 125px;
+}
+.oscar {
+  background-color: rgb(238,238,238);
+  border-radius: 50px;
+  width: 700px;
+  display: flex;
+  padding: 20px;
+}
+.oscar img {
+  width: 125px;
+}
+.Description {
+  width: 350px;
+  display: inline-block;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.Pets {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
+}
+#petButtonP {
+  width: 150px;
+  height: 25px;
+}
+#petButtonB {
+  width: 150px;
+  height: 25px;
+}
+#petButtonO {
+  width: 150px;
+  height: 25px;
+}

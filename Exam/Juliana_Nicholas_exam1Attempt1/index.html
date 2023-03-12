@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Shelter</title>
+  <link rel="stylesheet" href="./styling.css">
+</head>
+<body>
+  <div class="navBar">
+    <div class="topNav">
+      <div class="topNavLeft">
+        <img src="./images/heart-light.png" alt="heart">
+        <h1>Pet Shelter</h1>
+      </div>
+      <div class="topNavRight">
+        <p><a href="#">Find a Pet</a></p>
+        <p><a href="#">About</a></p>
+      </div>
+        <button id="donate" onclick="removeButton(this)">Donate</button>
+    </div>
+    <div class="bottomNav">
+      <div class="formLooking">
+        <form action="./script.js" id="formOne">
+          <label for="selAni">I'm looking for a...</label>
+          <div class="pawPrintAlign">
+            <img src="./images/paw-light.png" alt="Paw Print" id="pawPrint">
+              <select onchange="chosenPet(this);" name="animals" id="selAni">
+              <option value="anypet" id="anyPet">Any Pet</option>
+              <option value="cat">Cat</option>
+              <option value="dog">Dog</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="formLocation">
+        <form action="#" id="formTwo"> <!-- forms bundle info and sends it away. -->
+          <label for="location">in or near...</label>
+          <div class="locationAlign">
+            <img src="./images/pin-light.png" alt="Location Pin" id="pin">
+            <input type="text" name="location" id="location" placeholder=" City or Zip Code">
+          </div>
+        </form>
+      </div>
+      <button id="find">Find your new best friend</button>
+      </div>
+  </div>
+  <div class="pageBody">
+    <div class="pepper">
+      <img src="./images/pepper.jpg" alt="Pepper_The_Cat">
+      <div class="Description">
+        <h2>Pepper</h2>
+        <p >Pepper is a slightly shy grey tabby,  but she really loves showing her human affection.</p>
+      </div>
+      <div class="Pets">
+        <p id="pepCounter">0 petting(s)</p>
+        <button id="petButtonP" onclick="addLike(this)">Pet Pepper</button>
+      </div>
+    </div>
+
+    <div class="bruce">
+      <img src="./images/bruce.jpg" alt="Bruce_The_Dog">
+      <div class="Description">
+        <h2>Bruce</h2>
+        <p>Bruce is a loyal companion. He loves long walks and cold weather.</p>
+      </div>
+      <div class="Pets">
+        <p id="bruCounter">0 petting(s)</p>
+        <button id="petButtonB" onclick="addLike2(this)">Pet Bruce</button>
+      </div>
+    </div>
+
+    <div class="oscar">
+      <img src="./images/oscar.jpg" alt="Oscar_The_Dog">
+      <div class="Description">
+        <h2>Oscar</h2>
+        <p>Oscar is bright, energetic and friendly. He is looking for a good home.</p>
+      </div>
+      <div class="Pets">
+        <p id="oscCounter">0 petting(s)</p>
+        <button id="petButtonO" onclick="addLike3(this)">Pet Oscar</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
